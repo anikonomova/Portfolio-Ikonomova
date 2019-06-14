@@ -1,33 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+
+* {
+    box-sizing: border-box;
+  }
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  font-family: "Josefin Slab", serif;
+}
+
+#menu {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid grey;
+}
+.nav {
+  float: right;
+  padding-right: 10px;
+}
+.fa {
+  padding: 10px;
+}
+
+.navigation {
+  padding-right: 10px;
+  width: 150px;
+  height: 60px;
+  color: black;
+  border: none;
+  background: none;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navigation:hover {
+  color: grey;
+  }
+
+.navigation:focus {
+  outline: none;
+}
+
+.info {
+  width: 100%;
+  display: grid;
+  height: 81vh;
+/*  background: linear-gradient(-45deg,#e5e5e8, white, #e5e5e8);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 30s ease infinite;
+  -moz-animation: Gradient 30s ease infinite;
+  animation: Gradient 30s ease infinite;*/
+}
+
+
+.home {
+  background-image: url('./Images/sivo.jpg');
+  background-size: cover;
+}
+.col-1,
+.col-2,
+.col-3
+ {
+width:100%;
+}
+
+.col-1 {
+}
+.col-2 {
+}
+.col-3 {
+}
+
+.myWork {
+  background-color: #363638;
+  text-decoration: none;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.myWork:hover {
+      animation: nudge .4s linear;
+      color: #c3c3db;
+      border: 2px solid white;
+    }
+
+a {
+  color: inherit;
+}
+.fa-angle-double-right {
+  padding: 5px;
+}
+.header {
+  font-size: calc(58px + 6vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#footer {
+  width: 100%;
+  height: 88px;
+  border-top: 1px solid grey;
+}
+.heading {
+  float: left;
+  font-size: calc(10px + 1vmin);
+  text-align: right;
+  padding: 5px 10px 5px 20px;
+  line-height: 0.8;
+}
+.name {
+  margin : 5px;
+  padding: 5px 5px 0 0;
+  color: black;
+}
+.App-logo {
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 70px;
+  width: 95px;
+  float: left;
+}
+
+/*--------------About Me---------*/
+
+.col-4 {
+  width: 10%;
+  float: right;
+  padding: 30px;
+}
+.col-5 {
+  width: 90%;
+  float:left;
+  text-align: left;
+  padding:  20px;
+  font-size: 24px;
+}
+
+.anna {
+  display: block;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+  width: 130px;
+}
+/*--------------My Work---------*/
+
+.container2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work {
+  width: 100%;
+}
+.featuredWork {
+  font-size: calc(12px + 3vmin);
+}
+
+.box {
+  width: 33%;
+  min-height: 150px;
+}
+
+.projects {
+  width: 250px;
+}
+
+.projectNames {
+  color: black;
+  text-align: center;
+  font-size: calc(12px + 2vmin);
+}
+
+.projectNames:hover {
+  color: #a3a375;
+}
+
+a {
+    text-decoration: none !important;
   }
-  to {
-    transform: rotate(360deg);
+
+.theRunner
+.matchingGame
+.plovdiv
+.pam
+.myReads
+.snail {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  height:30%;
+}
+
+/*--------------Contact---------*/
+
+.contact {
+  font-size: calc(10px + 5vmin);
+  margin-top: 0;
+  padding-top: 100px;
+}
+.social {
+  margin: 7px;
+}
+.social:hover {
+  animation: nudge .4s linear;
+}
+
+@keyframes nudge {
+
+  0% {
+    transform: rotate(-5deg);
   }
+
+  33% {
+    transform: rotate(5deg);
+  }
+
+  66% {
+    transform: rotate(-5deg);
+  }
+}
+
+@-webkit-keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
+}
+
+@-moz-keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
+}
+
+@keyframes Gradient {
+0% {
+  background-position: 0% 50%
+}
+50% {
+  background-position: 100% 50%
+}
+100% {
+  background-position: 0% 50%
+}
 }
