@@ -13,11 +13,10 @@ class App extends Component {
     return (
     <div className="App">
     <div id= 'menu'>
+    <a href="/" aria-label="Home-page" tabIndex="0"><img src={logo} className="logo" alt="logo" /></a>
     <div className='nav'>
     <Link to="/home"><button className='navigation'><i className="fa fa-home w3-xxlarge"></i><span>Home</span></button></Link>
-    <Link to="/about"><button className='navigation'><i className="fa fa-user w3-xxlarge"></i><span>About</span></button></Link>
     <Link to="/my-work"><button className='navigation'><i className="fa fa-eye w3-xxlarge"></i><span>Work</span></button></Link>
-    <Link to="/contact"><button className='navigation'><i className="fa fa-envelope w3-xxlarge"></i><span>Contact</span></button></Link>
     </div>
     </div>
 
@@ -39,9 +38,9 @@ class App extends Component {
     <Contact />
   )} />
   </main>
+
       <footer id="footer" tabIndex="0">
-        <a href="/" aria-label="Home-page" tabIndex="0"><img src={logo} className="App-logo" alt="logo" /><div className='heading'><h1 className='name'>Anna Ikonomova</h1>
-              <h2 className='name'> Junior Front-End Web Developer</h2></div></a>
+        <a href="/" aria-label="Home-page" tabIndex="0"><div id='heading' className='col-6'><span className='name'>© 2019 - Anna Ikonomova | Junior Front-End Web Developer</span></div></a>
        </footer>
     </div>
   );

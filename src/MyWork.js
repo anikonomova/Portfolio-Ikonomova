@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import theRunner from './Images/theRunner.jpg';
-import matchingGame from './Images/matchingGame.jpg'
-import plovdiv from './Images/plovdiv.jpg'
-import pam from './Images/pam.jpg'
-import snail from './Images/snail.jpg'
-import myReads from './Images/myReads.jpg'
+import matchingGame from './Images/matchingGame.jpg';
+import plovdiv from './Images/plovdiv.jpg';
+import pam from './Images/pam.jpg';
+import snail from './Images/snail.jpg';
+import myReads from './Images/myReads.jpg';
+import Contact from './Contact';
+
 
 
 class MyWork extends Component {
@@ -47,6 +49,9 @@ class MyWork extends Component {
       <h3 className="projectNames">The Runner game</h3></a>
       </div>
 </div>
+      <div className='col-4'>
+          <Contact />
+            </div>
 </div>
   );
   }

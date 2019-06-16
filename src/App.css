@@ -16,7 +16,7 @@
 #menu {
   width: 100%;
   height: 60px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #c0c3c6;
 }
 .nav {
   float: right;
@@ -30,15 +30,15 @@
   padding-right: 10px;
   width: 150px;
   height: 60px;
-  color: black;
+  color: #4e5051;
   border: none;
   background: none;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 22px;
   cursor: pointer;
 }
+
 .navigation:hover {
-  color: grey;
+  color: #9ea4a8;
   }
 
 .navigation:focus {
@@ -48,22 +48,27 @@
 .info {
   width: 100%;
   display: grid;
-  height: 81vh;
-/*  background: linear-gradient(-45deg,#e5e5e8, white, #e5e5e8);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 30s ease infinite;
-  -moz-animation: Gradient 30s ease infinite;
-  animation: Gradient 30s ease infinite;*/
 }
 
+.logo {
+  float: left;
+  padding: 5px;
+  width:75px;
+  height: 60px;
+}
+.logo:hover {
+  opacity: 0.8;
+}
 
 .home {
-  background-image: url('./Images/sivo.jpg');
+  background-image: url('./Images/blur.jpg');
   background-size: cover;
 }
+
 .col-1,
 .col-2,
-.col-3
+.col-3,
+.col-4
  {
 width:100%;
 }
@@ -71,9 +76,16 @@ width:100%;
 .col-1 {
 }
 .col-2 {
+  padding: 70px;
 }
 .col-3 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
 }
+/*--------------button view work---------*/
 
 .myWork {
   background-color: #363638;
@@ -86,76 +98,100 @@ width:100%;
   font-size: 16px;
   font-weight: lighter;
   cursor: pointer;
+  margin: 0px;
+  border: 2px solid white;
 }
 
 .myWork:hover {
       animation: nudge .4s linear;
       color: #c3c3db;
-      border: 2px solid white;
+      opacity: 0.8;
     }
 
 a {
   color: inherit;
 }
+
+a:focus {
+  outline: none;
+}
+
 .fa-angle-double-right {
   padding: 5px;
 }
+/*--------------hello text--------*/
+
 .header {
   font-size: calc(58px + 6vmin);
+  padding: 70px;
+  margin: 0;
 }
+/*--------------footer---------*/
 
 #footer {
   width: 100%;
-  height: 88px;
-  border-top: 1px solid grey;
+  height: 60px;
+  border-top: 1px solid #c0c3c6;
+  background-color: #4e5051;
 }
-.heading {
-  float: left;
-  font-size: calc(10px + 1vmin);
-  text-align: right;
-  padding: 5px 10px 5px 20px;
-  line-height: 0.8;
+
+#heading {
+  font-size: 22px;
+  padding: 15px 10px 5px 20px;
+  line-height: 1.5;
 }
+
 .name {
   margin : 5px;
   padding: 5px 5px 0 0;
-  color: black;
+  color: #ffff;
 }
-.App-logo {
-  margin-top: 10px;
-  padding-left: 10px;
-  height: 70px;
-  width: 95px;
+
+/*.App-logo {
+  margin-top: 20px;
+  padding: 5px;
+  height: 60px;
+  width: 75px;
   float: left;
-}
+}*/
 
 /*--------------About Me---------*/
-
-.col-4 {
-  width: 10%;
-  float: right;
-  padding: 30px;
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
 }
-.col-5 {
-  width: 90%;
+
+.about {
+  padding: 5px;
+}
+
+.box1 {
+  width: 80%;
   float:left;
   text-align: left;
   padding:  20px;
   font-size: 24px;
 }
 
+.box2 {
+  width: 20%;
+  float: right;
+  padding-top: 110px;
+  padding-left: 5%;
+}
+
 .anna {
   display: block;
   border-radius: 50%;
-  margin-right: 10px;
-  margin-top: 10px;
-  float: right;
-  width: 130px;
+  width: 150px;
+  box-shadow: 5px 5px 5px #c0c3c6;
 }
 /*--------------My Work---------*/
 
 .container2 {
   width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -169,12 +205,16 @@ a {
 }
 
 .box {
-  width: 33%;
+  width: 45%;
   min-height: 150px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .projects {
-  width: 250px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .projectNames {
@@ -208,15 +248,15 @@ a {
 /*--------------Contact---------*/
 
 .contact {
-  font-size: calc(10px + 5vmin);
-  margin-top: 0;
-  padding-top: 100px;
+  font-size: calc(10px + 4vmin);
+  margin: 20px;
 }
 .social {
-  margin: 7px;
+  margin: 10px;
 }
 .social:hover {
   animation: nudge .4s linear;
+  opacity: 0.5;
 }
 
 @keyframes nudge {
@@ -232,40 +272,4 @@ a {
   66% {
     transform: rotate(-5deg);
   }
-}
-
-@-webkit-keyframes Gradient {
-0% {
-  background-position: 0% 50%
-}
-50% {
-  background-position: 100% 50%
-}
-100% {
-  background-position: 0% 50%
-}
-}
-
-@-moz-keyframes Gradient {
-0% {
-  background-position: 0% 50%
-}
-50% {
-  background-position: 100% 50%
-}
-100% {
-  background-position: 0% 50%
-}
-}
-
-@keyframes Gradient {
-0% {
-  background-position: 0% 50%
-}
-50% {
-  background-position: 100% 50%
-}
-100% {
-  background-position: 0% 50%
-}
 }
