@@ -6,6 +6,9 @@ class About extends Component {
   render() {
     return (
       <div className="aboutMe">
+      <div className='box2'>
+      <img className='anna' src={ani1} alt='Anna Ikonomova'></img>
+      </div>
       <div className='box1'><h3>About me</h3>
       <p className='about'>My Name is Anna Ikonomova and I live in Gummersbach, Germany. I am Junior Front-End Web Developer.
       The first line of code, that I wrote, was when the Google Udacity Scolarship Challenge
@@ -17,9 +20,6 @@ class About extends Component {
       <p className='about'> Html5, CSS3, JavaScript, React, Git, Git hub, Responsive Design and etc.</p>
       <h3>Soft skills</h3>
       <p  className='about'>Flexibility, Strong work ethic and team spirit.</p>
-      </div>
-      <div className='box2'>
-      <img className='anna' src={ani1} alt='Anna Ikonomova'></img>
       </div>
     </div>
 
