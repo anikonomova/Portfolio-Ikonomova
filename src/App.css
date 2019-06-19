@@ -34,8 +34,10 @@
   color: #4e5051;
   border: none;
   background: none;
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 600;
   cursor: pointer;
+  font-family: "Josefin Slab", serif;
 }
 
 .navigation:hover {
@@ -62,7 +64,7 @@
 }
 
 .home {
-  background-image: url('./Images/blur.jpg');
+  background-image: url('./Images/20.jpg');
   background-size: cover;
 }
 
@@ -125,9 +127,12 @@ a:focus {
 /*--------------hello text--------*/
 
 .header {
-  font-size: calc(58px + 6vmin);
+  font-size: calc(70px + 6vmin);
   padding: 70px;
   margin: 0;
+  font-family: "Josefin Slab", serif;
+  color: black;
+  text-shadow: 2px 2px #ffffff;
 }
 /*--------------footer---------*/
 
@@ -168,8 +173,8 @@ a:focus {
 }
 
 .box1 {
-  vertical-align:middle;
-text-align:justify;
+  vertical-align: middle;
+  text-align: justify;
   padding:  20px;
   font-size: 24px;
   z-index: 1;
@@ -188,6 +193,7 @@ text-align:justify;
   border-radius: 50%;
   width: 150px;
   box-shadow: 5px 5px 5px #c0c3c6;
+  margin: 10px;
 }
 /*--------------My Work---------*/
 
@@ -282,21 +288,13 @@ a {
 
 /*--------------Responsive---------*/
 
-@media screen and (max-width: 500px) {
-/* .box1 {
-    width: 70%;
-    float:left;
-    text-align: justify;
-    padding:  5px;
-    font-size: 18px;
-  }
-
-  .box2 {
-    width: 30%;
-    float: right;
-    padding-top: 50px;
-    padding-left: 5%;
-  }*/
+@media screen and (max-width: 570px) {
+.header {
+  padding: 50px;
+}
+.col-2 {
+  padding: 50px;
+}
   .anna {
     display: block;
     border-radius: 50%;
@@ -330,6 +328,33 @@ a {
     .projects {
       width: 250px;
     }
+}
 
+@media screen and (min-width: 571px) {
+  .box {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
 
+  .projects {
+    width: 250px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+
+  .box {
+    width: 45%;
+    min-height: 150px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .projects {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+  }
 }
