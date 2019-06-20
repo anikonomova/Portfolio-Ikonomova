@@ -210,7 +210,7 @@ a:focus {
   width: 100%;
 }
 .featuredWork {
-  font-size: calc(12px + 3vmin);
+  font-size: calc(22px + 3vmin);
 }
 
 .box {
@@ -222,7 +222,6 @@ a:focus {
 
 .projects {
   width: 400px;
-  padding: 20px;
   box-shadow: 10px 10px 5px grey;
 }
 
@@ -289,11 +288,15 @@ a {
 /*--------------Responsive---------*/
 
 @media screen and (max-width: 570px) {
+
+  .home {
+    background-image: url('./Images/2322.jpg');
+  }
 .header {
-  padding: 50px;
+  padding: 30px;
 }
 .col-2 {
-  padding: 50px;
+  padding: 20px 20px 40px 20px;
 }
   .anna {
     display: block;
@@ -308,7 +311,7 @@ a {
 
   .logo {
     width: 65px;
-    height: 50px;
+    height: 48px;
   }
   #heading {
     font-size: 16px;
@@ -354,7 +357,6 @@ a {
 
   .projects {
     width: 400px;
-    padding: 20px;
     box-shadow: 10px 10px 5px grey;
   }
 }
