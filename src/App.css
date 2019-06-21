@@ -12,6 +12,7 @@
   justify-content: center;
   margin: 0 auto;
   font-family: "Josefin Slab", serif;
+  min-height: 100vh;
 }
 
 #menu {
