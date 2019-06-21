@@ -7,17 +7,17 @@ import Navigation from './Navigation';
 import './App.css';
 
 
-function loadedPage() {
-    window.loadedPage = true;
+function loadPage() {
+    window.loadPage = true;
   }
 
 class App extends Component {
 
   componentDidMount() {
 
-    window.loadedPage = loadedPage;
+  window.loadPage = loadPage;
     setTimeout(() => {
-      if (!window.loadedPage) {
+      if (!window.loadPage) {
         this.showError();
    }
  }, 3000);
