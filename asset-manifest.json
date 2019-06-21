@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.193fc165.chunk.css",
+    "main.js": "/static/js/main.47344713.chunk.js",
+    "main.js.map": "/static/js/main.47344713.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.33728bfe.chunk.js": "/static/js/2.33728bfe.chunk.js",
+    "static/js/2.33728bfe.chunk.js.map": "/static/js/2.33728bfe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f3b3e56e12176c2f8dcb59e302c34a12.js": "/precache-manifest.f3b3e56e12176c2f8dcb59e302c34a12.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.193fc165.chunk.css.map": "/static/css/main.193fc165.chunk.css.map",
+    "static/media/1.jpg": "/static/media/1.decfd73e.jpg",
+    "static/media/App.css": "/static/media/2322.fc9310ce.jpg",
+    "static/media/matchingGame.jpg": "/static/media/matchingGame.1908a140.jpg",
+    "static/media/myReads.jpg": "/static/media/myReads.5f462979.jpg",
+    "static/media/pam.jpg": "/static/media/pam.3996d633.jpg",
+    "static/media/plovdiv.jpg": "/static/media/plovdiv.4db8f54f.jpg",
+    "static/media/snail.jpg": "/static/media/snail.d3c7ea15.jpg",
+    "static/media/theRunner.jpg": "/static/media/theRunner.14d82c28.jpg"
+  }
+}
