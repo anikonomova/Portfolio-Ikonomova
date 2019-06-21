@@ -8,11 +8,11 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
-    "react-social-icons": "^4.1.0",
+    "react-social-icons": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +33,5 @@
       "last 1 safari version"
     ]
   },
-    "homepage" : "http://anikonomova.github.io/Portfolio-Ikonomova"
+  "homepage": "https://anikonomova.github.io/Portfolio-Ikonomova"
 }
