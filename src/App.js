@@ -30,7 +30,7 @@ showError = () => {
   render() {
     return (
       <HashRouter basename="/">
-    <div className="App">
+      <div className="App">
       <Navigation />
 
       <main className= 'info'>
@@ -40,14 +40,14 @@ showError = () => {
           />
           <Route path="/home" render={() => (
           <Home />
-        )} />
-        <Route path="/my-work" render={() => (
-    <MyWork />
           )} />
-  </main>
-  <Footer />
-    </div>
-    </HashRouter>
+          <Route path="/my-work" render={() => (
+          <MyWork />
+          )} />
+        </main>
+          <Footer />
+          </div>
+          </HashRouter>
   );
 }
 }
