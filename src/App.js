@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Home from './Home';
 import MyWork from './MyWork';
 import Footer from './Footer';
@@ -29,10 +29,8 @@ showError = () => {
 
   render() {
     return (
-      <HashRouter basename="/">
       <div className="App">
       <Navigation />
-
       <main className= 'info'>
       <Route exact path="/" render={() => (
         <Home />
@@ -47,7 +45,6 @@ showError = () => {
         </main>
           <Footer />
           </div>
-          </HashRouter>
   );
 }
 }
