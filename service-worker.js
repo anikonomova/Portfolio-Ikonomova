@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/Portfolio-Ikonomova/precache-manifest.19356576f6896e07b0379d2538ec2bc2.js"
+  "/Portfolio-Ikonomova/precache-manifest.9d19ecee36da711ea4a18a5ccdc877ab.js"
 );
 
 self.addEventListener('message', (event) => {
