@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Home from './Home';
 import MyWork from './MyWork';
 import Footer from './Footer';
@@ -29,6 +29,7 @@ showError = () => {
 
   render() {
     return (
+      <HashRouter basename="/">
       <div className="App">
       <Navigation />
 
@@ -43,6 +44,7 @@ showError = () => {
         </main>
           <Footer />
           </div>
+          </HashRouter>
   );
 }
 }
