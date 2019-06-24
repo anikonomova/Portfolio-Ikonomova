@@ -13,8 +13,10 @@ class Home extends Component {
       <div className='home'>
       <div className='col-1'><h1 className='header'>hello.</h1></div>
       <div className='col-2'>
-<button className='myWork'>
-<Link to="/my-work"><span>View my work <i className="fa fa-angle-double-right"></i></span></Link></button>
+<Link to="/my-work"><button className='myWork'>
+<span>View my work <i className="fa fa-angle-double-right"></i></span>
+</button>
+</Link>
 
 </div>
 </div>

@@ -31,14 +31,12 @@ showError = () => {
     return (
       <div className="App">
       <Navigation />
+
       <main className= 'info'>
       <Route exact path="/" render={() => (
         <Home />
           )}
           />
-          <Route path="/home" render={() => (
-          <Home />
-          )} />
           <Route path="/my-work" render={() => (
           <MyWork />
           )} />
