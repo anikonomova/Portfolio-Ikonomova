@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e418c480d8fa2c041af970648770a75c",
+    "revision": "80ae90f8e884299d8cd1a1a604e37c6f",
     "url": "/Portfolio-Ikonomova/index.html"
   },
   {
-    "revision": "0da84583616322d2add4",
-    "url": "/Portfolio-Ikonomova/static/css/main.f065df7c.chunk.css"
+    "revision": "1c6c759182157c1aac7d",
+    "url": "/Portfolio-Ikonomova/static/css/main.956127e3.chunk.css"
   },
   {
-    "revision": "1239255f7703bc7b89c0",
-    "url": "/Portfolio-Ikonomova/static/js/2.82c29811.chunk.js"
+    "revision": "96e03fba8335f2455ad3",
+    "url": "/Portfolio-Ikonomova/static/js/2.b6ce6257.chunk.js"
   },
   {
-    "revision": "0da84583616322d2add4",
-    "url": "/Portfolio-Ikonomova/static/js/main.432a565f.chunk.js"
+    "revision": "1c6c759182157c1aac7d",
+    "url": "/Portfolio-Ikonomova/static/js/main.c11639c4.chunk.js"
   },
   {
     "revision": "d31b2c1da128eac4ac93",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc9310ce66096dc57ba6ac9b240d1c0f",
     "url": "/Portfolio-Ikonomova/static/media/2322.fc9310ce.jpg"
+  },
+  {
+    "revision": "747e0cdd86b84302647a03026e26fd08",
+    "url": "/Portfolio-Ikonomova/static/media/css.747e0cdd.png"
+  },
+  {
+    "revision": "637ccbf2b702b94a2cf9a3ff6cdd7dc2",
+    "url": "/Portfolio-Ikonomova/static/media/js.637ccbf2.png"
   },
   {
     "revision": "1908a1403fec2df70c79045b0a7cd01c",
