@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import ani1 from './Images/1.jpg';
+import HTML5 from './Images/html5.png';
+import CSS from './Images/css.png';
+import JS from './Images/js.png';
+
 
 class About extends Component {
   render() {
     return (
-      <div className="aboutMe">
+      <div className="about-me">
       <div className='box2'>
       <img className='anna' src={ani1} alt='Anna Ikonomova'></img>
       </div>
@@ -17,7 +21,14 @@ class About extends Component {
       Now I'm still learning and willing to build a career in the field.
       </p>
       <h3 className='title2'>Skills</h3>
-      <ul className='about'>
+
+      <div className='group-logos'>
+      <img className='logos' src={HTML5} alt='HTML5 logo'></img>
+      <img className='logos' src={CSS} alt='CSS3 logo'></img>
+      <img className='logos' src={JS} alt='JS logo'></img>
+      </div>
+
+      <ul className='list'>
       <li className='list-item'>Html</li>
       <li className='list-item'>CSS3</li>
       <li className='list-item'>JavaScript</li>

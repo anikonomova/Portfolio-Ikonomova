@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="box3">
-      <div className='follow'>
+      <div className='contact'>
         <SocialIcon className='social' url="https://www.facebook.com/ani.strandjeva" />
         <SocialIcon className='social' url="https://www.linkedin.com/in/anna-ikonomova-11880361/" />
         <SocialIcon className='social' url="https://github.com/anikonomova" />

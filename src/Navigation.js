@@ -10,10 +10,10 @@ class Navigation extends Component {
     return (
     <div id= 'menu'>
     <Link to="/" aria-label="Home-page" tabIndex="0"><img src={logo} className="logo" alt="logo" /></Link>
-    <div className='nav'>
-    <Link to="/"><button className='navigation'><i className="fa fa-home w3-xxlarge"></i><span>Home</span></button></Link>
-    <Link to="/my-work"><button className='navigation'><i className="fa fa-eye w3-xxlarge"></i><span>Work</span></button></Link>
-    </div>
+    <ul className='nav' tabIndex='-1'>
+    <Link to="/"><li className='navigation'><i className="fa fa-home w3-xxlarge"></i><span>Home</span></li></Link>
+    <Link to="/my-work"><li className='navigation'><i className="fa fa-eye w3-xxlarge"></i><span>Work</span></li></Link>
+    </ul>
     </div>
     );
   }

@@ -20,24 +20,25 @@
 #menu {
   width: 100%;
   height: 50px;
-  background-color: rgb(222, 223, 224, 0.5)
+  background-color: rgb(213, 216, 219,0.7)
+
 }
 
 .nav {
   float: right;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 .fa {
   padding: 10px;
 }
 
 .navigation {
+  list-style-type: none;
+  display: inline-block;
   padding: 5px;
   width: 150px;
   height: 50px;
   color: #27192d;
-  border: none;
-  background: none;
   font-size: 24px;
   font-weight: 600;
   cursor: pointer;
@@ -49,7 +50,8 @@
   }
 
 .navigation:active {
-  text-decoration: underline overline;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 .navigation:focus {
@@ -78,8 +80,7 @@
 
 .col-1,
 .col-2,
-.col-3,
-.col-4
+.col-3
  {
 width:100%;
 }
@@ -88,7 +89,7 @@ width:100%;
   padding-top: 280px;
 }
 
-.col-3 {
+.col-2 {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -97,7 +98,7 @@ width:100%;
 }
 /*--------------button view work---------*/
 
-.myWork {
+.work-btn {
   background-color: rgb(54, 54, 56,0.3);
   text-decoration: none;
   border: none;
@@ -112,18 +113,23 @@ width:100%;
   border: 2px solid white;
 }
 
-.myWork:hover {
+.work-btn:hover {
       animation: nudge .4s linear;
       color: #c3c3db;
       opacity: 0.8;
     }
+
+.work-btn:focus {
+  outline: 1px solid white;
+}
 
 a {
   color: inherit;
 }
 
 a:focus {
-  outline: none;
+  outline: 1px dashed black;
+
 }
 
 .fa-angle-double-right {
@@ -152,7 +158,7 @@ a:focus {
   width: 100%;
   height: 60px;
   border-top: 1px solid black;
-  background-color: #27192d;
+  background-color: rgb(46, 45, 45);
 }
 
 #footer-text {
@@ -169,7 +175,7 @@ a:focus {
 
 /*--------------About Me---------*/
 
-.aboutMe {
+.about-me {
   display: table;
   color: black;
 }
@@ -206,6 +212,16 @@ a:focus {
   padding: 30px 30px 30px 0px;
 }
 
+.group-logos {
+  padding: 5px;
+}
+
+.logos {
+  width: 75px;
+  height: 105px;
+  margin: 5px;
+}
+
 .list {
   padding: 5px;
 }
@@ -228,7 +244,7 @@ a:focus {
 .work {
   width: 100%;
 }
-.featuredWork {
+.featured-work {
   font-size: calc(22px + 3vmin);
   color: black;
   padding: 20px;
@@ -246,14 +262,14 @@ a:focus {
   box-shadow: 10px 10px 5px grey;
 }
 
-.projectNames {
+.project-names {
   color: black;
   text-align: center;
   font-size: calc(14px + 2vmin);
   padding: 15px;
 }
 
-.projectNames:hover {
+.project-names:hover {
   color: #a3a375;
 }
 
@@ -278,12 +294,12 @@ a {
 /*--------------Contact---------*/
 
 .contact {
-  font-size: calc(10px + 4vmin);
   margin: 20px;
 }
 .social {
   margin: 10px;
 }
+
 .social:hover {
   animation: nudge .4s linear;
   opacity: 0.5;
@@ -320,7 +336,7 @@ a {
   font-size: 38px;
 }
 
-.myWork {
+.work-btn {
   padding: 15px 22px;
   margin: 50px;
 }
@@ -332,7 +348,8 @@ a {
     margin: 10px;
   }
   .navigation {
-    width: 120px;
+    width: 110px;
+    font-size: 22px;
   }
 
   .logo {
