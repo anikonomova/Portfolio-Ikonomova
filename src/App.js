@@ -31,7 +31,6 @@ showError = () => {
     return (
       <HashRouter basename="/">
       <div className="App">
-      <Navigation />
 
       <main className= 'info'>
       <Route exact path="/" render={() => (

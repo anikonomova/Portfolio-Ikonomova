@@ -3,30 +3,29 @@ import './App.css';
 import { Link } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import Navigation from './Navigation';
 
 
 
 class Home extends Component {
   render() {
     return (
-      <div className="info">
-      <div className='home'>
-      <div className='col-1'><h1 className='header'>hello.</h1></div>
-      <div className='col-2'>
+      <main className="info">
+      <header className='home'>
+      <Navigation />
+      <div className='col-1'><h1 className='header'>Anna Ikonomova</h1><h2 className="subheader">Junior Front-End Developer</h2></div>
 <Link to="/my-work"><button className='myWork'>
 <span>View my work <i className="fa fa-angle-double-right"></i></span>
 </button>
 </Link>
-
-</div>
-</div>
+</header>
 <div className='col-3'>
 <About />
 <div className='col-4'>
 <Contact />
 </div>
 </div>
-      </div>
+      </main>
 
 
     );

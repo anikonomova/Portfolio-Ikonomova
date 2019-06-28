@@ -19,9 +19,10 @@
 
 #menu {
   width: 100%;
-  height: 60px;
-  border-bottom: 1px solid #c0c3c6;
+  height: 50px;
+  background-color: rgb(222, 223, 224, 0.5)
 }
+
 .nav {
   float: right;
   padding-right: 10px;
@@ -31,10 +32,10 @@
 }
 
 .navigation {
-  padding-right: 10px;
+  padding: 5px;
   width: 150px;
-  height: 60px;
-  color: #4e5051;
+  height: 50px;
+  color: #27192d;
   border: none;
   background: none;
   font-size: 24px;
@@ -44,8 +45,12 @@
 }
 
 .navigation:hover {
-  color: #9ea4a8;
+  color: #ffffff;
   }
+
+.navigation:active {
+  text-decoration: underline overline;
+}
 
 .navigation:focus {
   outline: none;
@@ -60,14 +65,14 @@
   float: left;
   padding: 5px;
   width:75px;
-  height: 60px;
+  height: 50px;
 }
 .logo:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .home {
-  background-image: url('./Images/20.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/20.jpg');
   background-size: cover;
 }
 
@@ -80,12 +85,9 @@ width:100%;
 }
 
 .col-1 {
+  padding-top: 280px;
 }
-.col-2 {
-  padding: 70px;
-  z-index: 1;
-  position: relative;
-}
+
 .col-3 {
   display: flex;
   flex-wrap: wrap;
@@ -96,7 +98,7 @@ width:100%;
 /*--------------button view work---------*/
 
 .myWork {
-  background-color: #363638;
+  background-color: rgb(54, 54, 56,0.3);
   text-decoration: none;
   border: none;
   color: white;
@@ -106,7 +108,7 @@ width:100%;
   font-size: 16px;
   font-weight: lighter;
   cursor: pointer;
-  margin: 0px;
+  margin: 70px;
   border: 2px solid white;
 }
 
@@ -130,23 +132,30 @@ a:focus {
 /*--------------hello text--------*/
 
 .header {
-  font-size: calc(70px + 6vmin);
-  padding: 70px;
+  font-size: calc(22px + 4vmin);
   margin: 0;
   font-family: "Josefin Slab", serif;
-  color: black;
-  text-shadow: 2px 2px #ffffff;
+  color: white;
+  text-shadow: 2px 2px #2f094c;
+}
+
+.subheader {
+  font-size: calc(16px + 2vmin);
+  margin: 0;
+  font-family: "Josefin Slab", serif;
+  color: white;
+  text-shadow: 2px 2px #2f094c;
 }
 /*--------------footer---------*/
 
 #footer {
   width: 100%;
   height: 60px;
-  border-top: 1px solid #c0c3c6;
-  background-color: #4e5051;
+  border-top: 1px solid black;
+  background-color: #27192d;
 }
 
-#heading {
+#footer-text {
   font-size: 22px;
   padding: 15px 10px 5px 20px;
   line-height: 1.5;
@@ -158,17 +167,11 @@ a:focus {
   color: #ffff;
 }
 
-/*.App-logo {
-  margin-top: 20px;
-  padding: 5px;
-  height: 60px;
-  width: 75px;
-  float: left;
-}*/
-
 /*--------------About Me---------*/
+
 .aboutMe {
   display: table;
+  color: black;
 }
 
 .about {
@@ -195,8 +198,21 @@ a:focus {
 .anna {
   border-radius: 50%;
   width: 150px;
-  box-shadow: 5px 5px 5px #c0c3c6;
+  box-shadow: 5px 5px 5px #27192d;
   margin: 10px;
+}
+
+.title2 {
+  padding: 30px 30px 30px 0px;
+}
+
+.list {
+  padding: 5px;
+}
+.list-item {
+  padding: 5px;
+  list-style-type: circle;
+  margin-left: 25px;
 }
 /*--------------My Work---------*/
 
@@ -214,6 +230,8 @@ a:focus {
 }
 .featuredWork {
   font-size: calc(22px + 3vmin);
+  color: black;
+  padding: 20px;
 }
 
 .box {
@@ -231,7 +249,8 @@ a:focus {
 .projectNames {
   color: black;
   text-align: center;
-  font-size: calc(12px + 2vmin);
+  font-size: calc(14px + 2vmin);
+  padding: 15px;
 }
 
 .projectNames:hover {
@@ -293,13 +312,17 @@ a {
 @media screen and (max-width: 570px) {
 
   .home {
-    background-image: url('./Images/2322.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/2322.jpg');
   }
-.header {
-  padding: 30px;
+
+  .header {
+  padding: 50px 10px 5px 10px;
+  font-size: 38px;
 }
-.col-2 {
-  padding: 20px 20px 40px 20px;
+
+.myWork {
+  padding: 15px 22px;
+  margin: 50px;
 }
   .anna {
     display: block;
@@ -316,7 +339,7 @@ a {
     width: 65px;
     height: 48px;
   }
-  #heading {
+  #footer-text {
     font-size: 16px;
     padding: 10px 10px 5px 10px;
     line-height: 1;
@@ -333,6 +356,15 @@ a {
 
     .projects {
       width: 250px;
+    }
+
+    .col-1 {
+      padding-top: 150px;
+    }
+
+    .subheader {
+      font-size: 20px;
+      padding: 10px;
     }
 }
 

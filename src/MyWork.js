@@ -7,13 +7,16 @@ import pam from './Images/pam.jpg';
 import snail from './Images/snail.jpg';
 import myReads from './Images/myReads.jpg';
 import Contact from './Contact';
+import Navigation from './Navigation';
+
 
 
 
 class MyWork extends Component {
   render() {
     return (
-      <div className="info">
+      <main className="info">
+      <Navigation />
       <div className='container2'>
       <div className='work'>
       <h1 className='featuredWork'>Featured work</h1>
@@ -52,7 +55,7 @@ class MyWork extends Component {
       <div className='col-4'>
           <Contact />
             </div>
-</div>
+</main>
   );
   }
 }
