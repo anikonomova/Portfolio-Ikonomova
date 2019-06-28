@@ -26,7 +26,7 @@
 
 .nav {
   float: right;
-  padding-right: 5px;
+  padding: 2.5px;
 }
 .fa {
   padding: 10px;
@@ -35,14 +35,14 @@
 .navigation {
   list-style-type: none;
   display: inline-block;
-  padding: 5px;
   width: 150px;
-  height: 50px;
+  height: 45px;
   color: #27192d;
   font-size: 24px;
   font-weight: 600;
   cursor: pointer;
   font-family: "Josefin Slab", serif;
+  text-align: center;
 }
 
 .navigation:hover {
@@ -86,13 +86,13 @@ width:100%;
 }
 
 .col-1 {
-  padding-top: 200px;
+  padding-top: 180px;
 }
 
 .col-2 {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1024px;
   width: 100%;
   margin: auto;
 }
