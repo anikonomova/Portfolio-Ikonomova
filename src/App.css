@@ -234,7 +234,7 @@ a:focus {
 
 .container2 {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1024px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +258,6 @@ a:focus {
 }
 
 .projects {
-  width: 400px;
   box-shadow: 10px 10px 5px grey;
 }
 
@@ -408,7 +407,7 @@ a {
   }
 
   .projects {
-    width: 400px;
+    width: 300px;
     box-shadow: 10px 10px 5px grey;
   }
 }
