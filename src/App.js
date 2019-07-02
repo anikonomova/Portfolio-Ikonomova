@@ -5,26 +5,11 @@ import MyWork from './MyWork';
 import Footer from './Footer';
 import './App.css';
 
-
-function loadPage() {
-    window.loadPage = true;
-  }
-
 class App extends Component {
 
   componentDidMount() {
-
-  window.loadPage = loadPage;
-    setTimeout(() => {
-      if (!window.loadPage) {
-        this.showError();
-   }
- }, 3000);
-}
-
-showError = () => {
-  alert('Oops!!! Something went wrong! Please try again...!')
-}
+          console.log("[App componentDidMount]");
+      }
 
   render() {
     return (
