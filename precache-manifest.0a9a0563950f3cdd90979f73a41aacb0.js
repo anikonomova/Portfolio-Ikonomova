@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0966c4f6cc2ca2a27ed14db01be1a4f0",
+    "revision": "5c7f1fdad39cc5b0b71a843f260e7588",
     "url": "/Portfolio-Ikonomova/index.html"
   },
   {
-    "revision": "59b9b614c13856a64612",
-    "url": "/Portfolio-Ikonomova/static/css/main.31a93afb.chunk.css"
+    "revision": "0e4a7af42518a979761f",
+    "url": "/Portfolio-Ikonomova/static/css/main.ffe2166a.chunk.css"
   },
   {
-    "revision": "96e03fba8335f2455ad3",
-    "url": "/Portfolio-Ikonomova/static/js/2.b6ce6257.chunk.js"
+    "revision": "093cb5c5e67919b9aa34",
+    "url": "/Portfolio-Ikonomova/static/js/2.4bffa87e.chunk.js"
   },
   {
-    "revision": "59b9b614c13856a64612",
-    "url": "/Portfolio-Ikonomova/static/js/main.f3e1742c.chunk.js"
+    "revision": "0e4a7af42518a979761f",
+    "url": "/Portfolio-Ikonomova/static/js/main.154bf8ac.chunk.js"
   },
   {
     "revision": "d31b2c1da128eac4ac93",
