@@ -1,10 +1,12 @@
 # Portfolio of Anna Ikonomova
-
+https://anikonomova.github.io/Portfolio-Ikonomova/
 It's a Portfolio built using ReactJS. It was bootstrapped with Create React App.
 
 ## How to run?
-* git clone https://github.com/anikonomova/Plovdiv-map
-* cd Plovdiv-map
+* visit: https://anikonomova.github.io/Portfolio-Ikonomova/
+or:
+* git clone https://github.com/anikonomova/Portfolio-Ikonomova
+* cd portfolio
 * npm install
 * npm start - starts a live preview at http://localhost:3000/
 
