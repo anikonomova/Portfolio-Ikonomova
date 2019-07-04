@@ -38,7 +38,7 @@ class About extends Component {
       <li className='list-item'>and etc.</li>
       </ul>
       <h3 className='title2'>Soft skills</h3>
-      <p  className='about'>Flexibility, Strong work ethic and team spirit.</p>
+      <p  className='about'>Flexibility, strong work ethic and team spirit.</p>
       </div>
     </div>
 

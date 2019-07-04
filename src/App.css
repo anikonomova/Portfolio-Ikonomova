@@ -20,7 +20,8 @@
 #menu {
   width: 100%;
   height: 50px;
-  background-color: rgb(255,255,255,0.6);
+  background-color: rgb(204, 204, 204, 0.6);
+  border-bottom: 2px solid rgb(210, 212, 214);
 
 }
 
@@ -197,7 +198,7 @@ a:focus {
   vertical-align: middle;
   text-align: justify;
   padding:  20px;
-  font-size: 24px;
+  font-size: 20px;
   z-index: 1;
   position: relative;
 }
@@ -248,14 +249,19 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgb(46, 45, 45);
+
 }
 
 .work {
   width: 100%;
+  background-color: rgb(46, 45, 45);
 }
 .featured-work {
   font-size: calc(22px + 3vmin);
-  color: black;
+  color: rgb(46, 45, 45);
+  background-color: rgb(255,255,255);
+
   padding: 20px;
 }
 
@@ -271,7 +277,7 @@ a:focus {
 }
 
 .project-names {
-  color: black;
+  color: white;
   text-align: center;
   font-size: calc(14px + 2vmin);
   padding: 15px;
