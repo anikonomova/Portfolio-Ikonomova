@@ -273,7 +273,7 @@ a:focus {
 }
 
 .project-names {
-  color: rgb(46, 45, 45);
+  color: black;
   text-align: center;
   font-size: calc(14px + 2vmin);
   padding: 15px;
